@@ -1,0 +1,43 @@
+name: example
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  mephisto_ui:
+    path: ../
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/svgs/
+    - assets/svgs/quick_actions/
+
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: fonts/Lato/Lato-Black.ttf
+        - asset: fonts/Lato/Lato-BlackItalic.ttf
+        - asset: fonts/Lato/Lato-Bold.ttf
+        - asset: fonts/Lato/Lato-BoldItalic.ttf
+        - asset: fonts/Lato/Lato-Italic.ttf
+        - asset: fonts/Lato/Lato-Light.ttf
+        - asset: fonts/Lato/Lato-LightItalic.ttf
+        - asset: fonts/Lato/Lato-Regular.ttf
+        - asset: fonts/Lato/Lato-Thin.ttf
+        - asset: fonts/Lato/Lato-ThinItalic.ttf
